@@ -22,6 +22,7 @@ function HomePage(props){
       <CartBar totalItems = {totalItemsInCart} /> 
     </div>
     <Products 
+      data = {props.data}
       totalItemsInCart = {totalItemsInCart}
       addItemToCart={addItemToCart}
       deleteItemToCart={deleteItemToCart}

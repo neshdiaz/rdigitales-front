@@ -1,7 +1,7 @@
 
 function AccountsPage(props){
 
-  return( <div>
+  return( <div className="container">
     <h1 className="card"> Administración de Cuentas </h1>
     <button className="btn btn-primary">Crear Nueva Cuenta</button>
     <table className="table table-sm table-responsive">

@@ -1,6 +1,6 @@
 
 function UsersPage(props){
-  return( <div>
+  return( <div className="container">
     <h1 className="card"> Administración de Usuarios </h1>
     <button className="btn btn-primary">Crear Nuevo Usuario</button>
     <table className="table table-sm table-responsive">

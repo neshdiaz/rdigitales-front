@@ -21,7 +21,7 @@ function Product(props){
 
 
   return (
-    <div className='card m-2 p-0' style={{width: '14rem'}}>  
+    <div className='card m-1 p-0' style={{width: '18rem'}}>  
       <img src ={ props.image } className='card-img-top' alt='logo'/>
       <div className='card-body text-center'>
         <h5 className='card-title'> { props.title } </h5>

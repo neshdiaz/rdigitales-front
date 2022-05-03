@@ -1,8 +1,11 @@
+import { Link } from 'react-router-dom'
+
 function ProductsPage(props){
  
-  return( <div>
+  return( <div className='container' >
     <h1 className="card"> Administración de Productos </h1>
-    <button className="btn btn-primary">Crear Nuevo Producto</button>
+
+    <Link className="btn btn-primary" to="/products/add/">Agregar producto</Link> 
     <table className="table table-sm table-responsive">
       <thead>                                                         
         <tr>
